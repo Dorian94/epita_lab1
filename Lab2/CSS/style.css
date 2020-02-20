@@ -1,0 +1,32 @@
+h1{
+    color: rgb(0, 162, 255)
+}
+body{
+    background-image: url("../Leboss_de_dos.jpg");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+blockquote{
+    font-family: 'Rouge Script', cursive;
+    font-size: 35px;
+}
+#un{
+    color: red;
+}
+#deux{
+    color: orange;
+}
+#trois{
+    color: rgba(240, 240, 53, 0.521);
+}
+#quatre{
+    color: green;
+}
+#cinq{
+    color: blue;
+}
+#six{
+    color: purple;
+
+}
