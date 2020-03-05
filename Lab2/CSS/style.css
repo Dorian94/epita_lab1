@@ -1,13 +1,24 @@
-h1{
+#h1{
     color: rgb(0, 162, 255)
 }
-body{
-    background-image: url("../Leboss_de_dos.jpg");
-      background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h2{
+    border-style: double;
+    border-color:red;
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    inset-block: inherit;
 }
-blockquote{
+#anec{
+    text-align: center;
+}
+#bodyHome{
+    background-image: url("../Images/Leboss_de_dos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bquote{
     font-family: 'Rouge Script', cursive;
     font-size: 35px;
 }
@@ -29,4 +40,100 @@ blockquote{
 #six{
     color: purple;
 
+}
+
+/*Biography*/
+
+#bio{
+    color: white;
+}
+
+.bioquote{
+    font-family: 'Lato', ;
+    font-size: 20px;
+    color: forestgreen;
+}
+
+#bodyBio{
+    background-image: url("../Images/Leboss_Old2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Anecdote*/
+
+ @-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+#Image{
+  animation-name: swing;
+  animation-duration: 2s;
+  -webkit-animation-name: swing;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#LeSwing {
+    background-image: url("../Images/Leboss_On_RainbowV2.jpg");
+    /*background-position:  center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+  animation-name: swing;
+  animation-duration: 1s;
+  -webkit-animation-name: swing;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 3s;
+  animation-iteration-count: infinite;
 }
