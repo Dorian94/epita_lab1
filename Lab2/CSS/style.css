@@ -1,13 +1,12 @@
 #h1{
     color: rgb(0, 162, 255)
 }
-h2{
-    border-style: double;
-    border-color:red;
-    width: 15%;
-    margin: 5px;
-    padding: 5px;
-    inset-block: inherit;
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
 }
 #anec{
     text-align: center;
@@ -125,15 +124,18 @@ h2{
   animation-iteration-count: infinite;
 }
 
-#LeSwing {
-    background-image: url("../Images/Leboss_On_RainbowV2.jpg");
-    /*background-position:  center;*/
-    background-repeat: no-repeat;
-    background-size: cover;
+#LeSwing:hover {
   animation-name: swing;
   animation-duration: 1s;
   -webkit-animation-name: swing;
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 0s;
   animation-iteration-count: infinite;
+}
+#anecdote{
+    color: white;
+    background-image: url("../Images/RainbowBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
